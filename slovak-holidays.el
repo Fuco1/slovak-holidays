@@ -43,7 +43,7 @@
 ;;; Code:
 
 ;;;###autoload
-(defvar slovak-holiday-list
+(defvar slovak-holidays-list
   '((holiday-fixed 1 1 "Deň vzniku Slovenskej republiky")
     (holiday-fixed 1 6 "Zjavenie Pána (Traja králi)")
     (holiday-fixed 3 25 "Deň zápasu za ľudské práva (pamätný deň)")
@@ -80,11 +80,11 @@
   "List of slovak holidays.")
 
 ;;;###autoload
-(mapcar (lambda (d) (add-to-list 'holiday-other-holidays d t)) slovak-holiday-list)
+(mapcar (lambda (d) (add-to-list 'holiday-other-holidays d t)) slovak-holidays-list)
 
 (defun slovak-holidays-add ()
   "Add slovak holidays to Emacs calendar."
-  (mapcar (lambda (d) (add-to-list 'holiday-other-holidays d t)) slovak-holiday-list))
+  (mapcar (lambda (d) (add-to-list 'holiday-other-holidays d t)) slovak-holidays-list))
 
 (provide 'slovak-holidays)
 ;;; slovak-holidays.el ends here
