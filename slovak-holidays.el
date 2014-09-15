@@ -82,6 +82,7 @@
 ;;;###autoload
 (mapcar (lambda (d) (add-to-list 'holiday-other-holidays d t)) slovak-holidays-list)
 
+;;;###autoload
 (defun slovak-holidays-add ()
   "Add slovak holidays to Emacs calendar."
   (mapcar (lambda (d) (add-to-list 'holiday-other-holidays d t)) slovak-holidays-list))
