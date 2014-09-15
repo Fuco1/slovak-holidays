@@ -53,7 +53,7 @@
     (holiday-fixed 5 1 "Deň pristúpenia Slovenskej republiky k Európskej únii (pamätný deň)")
     (holiday-fixed 5 1 "Sviatok práce")
     (holiday-fixed 5 4 "Výročie úmrtia M. R. Štefánika (pamätný deň)")
-    (holiday-fixed 5 8 "Deň víťazstva nad fašizmo")
+    (holiday-fixed 5 8 "Deň víťazstva nad fašizmom")
     (holiday-fixed 6 7 "Výročie Memoranda národa slovenského (pamätný deň)")
     (holiday-fixed 7 5 "Deň zahraničných Slovákov (pamätný deň)")
     (holiday-fixed 7 5 "Sviatok svätého Cyrila a Metoda")
