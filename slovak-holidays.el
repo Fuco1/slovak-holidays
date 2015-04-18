@@ -48,8 +48,6 @@
     (holiday-fixed 1 6 "Zjavenie Pána (Traja králi)")
     (holiday-fixed 3 25 "Deň zápasu za ľudské práva (pamätný deň)")
     (holiday-fixed 4 13 "Deň nespravodlivo stíhaných (pamätný deň)")
-    (holiday-fixed 4 18 "Veľký piatok")
-    (holiday-fixed 4 21 "Veľkonočný pondelok")
     (holiday-fixed 5 1 "Deň pristúpenia Slovenskej republiky k Európskej únii (pamätný deň)")
     (holiday-fixed 5 1 "Sviatok práce")
     (holiday-fixed 5 4 "Výročie úmrtia M. R. Štefánika (pamätný deň)")
