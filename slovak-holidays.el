@@ -46,6 +46,9 @@
 (defvar slovak-holidays-list
   '((holiday-fixed 1 1 "Deň vzniku Slovenskej republiky")
     (holiday-fixed 1 6 "Zjavenie Pána (Traja králi)")
+    (holiday-easter-etc  -2 "Veľký piatok")
+    (holiday-easter-etc   0 "Veľká noc")
+    (holiday-easter-etc  +1 "Veľkonočný pondelok")
     (holiday-fixed 3 25 "Deň zápasu za ľudské práva (pamätný deň)")
     (holiday-fixed 4 13 "Deň nespravodlivo stíhaných (pamätný deň)")
     (holiday-fixed 5 1 "Deň pristúpenia Slovenskej republiky k Európskej únii (pamätný deň)")
@@ -74,8 +77,8 @@
     (holiday-fixed 12 24 "Štedrý deň")
     (holiday-fixed 12 25 "Prvý sviatok vianočný")
     (holiday-fixed 12 26 "Druhý sviatok vianočný")
-    (holiday-fixed 12 30 "Deň vyhlásenia Slovenska za samostatnú cirkevnú provinciu (pamätný deň)"))
-  "List of slovak holidays.")
+    (holiday-fixed 12 30 "Deň vyhlásenia Slovenska za samostatnú cirkevnú provinciu (pamätný deň)")
+    "List of slovak holidays."))
 
 ;;;###autoload
 (defun slovak-holidays-add ()
